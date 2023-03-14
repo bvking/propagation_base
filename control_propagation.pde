@@ -3,8 +3,6 @@ void keyReleased (){
    }
   
 void controlPropagation(){
-  if (key!='#') { 
-  
   if (keyCode == LEFT) {  
     phaseOffset-=1;
   }
@@ -17,10 +15,6 @@ void controlPropagation(){
   }
   
   if (keyCode == DOWN) {
-    way=true;
-    
+    way=true;    
   }
-
-   }  
-  key='#';
- } 
+}   
